@@ -1,0 +1,904 @@
+[gd_scene load_steps=223 format=2]
+
+[ext_resource path="res://external_assets/snow_tile_endRound.dae" type="PackedScene" id=1]
+[ext_resource path="res://external_assets/snow_tile_endSpawn.dae" type="PackedScene" id=2]
+[ext_resource path="res://external_assets/snow_tile_hill.dae" type="PackedScene" id=3]
+[ext_resource path="res://external_assets/snow_tile_wideCorner.dae" type="PackedScene" id=4]
+[ext_resource path="res://external_assets/snow_tile_treeDouble.dae" type="PackedScene" id=5]
+[ext_resource path="res://external_assets/snow_tile_wideSplit.dae" type="PackedScene" id=6]
+[ext_resource path="res://external_assets/snow_tile_wideStraight.dae" type="PackedScene" id=7]
+[ext_resource path="res://external_assets/snow_tile_cornerLarge.dae" type="PackedScene" id=8]
+[ext_resource path="res://external_assets/snow_tile_cornerRound.dae" type="PackedScene" id=9]
+[ext_resource path="res://external_assets/snow_tile_cornerSquare.dae" type="PackedScene" id=10]
+[ext_resource path="res://external_assets/snow_tile_riverCorner.dae" type="PackedScene" id=11]
+[ext_resource path="res://external_assets/snow_tile_straight.dae" type="PackedScene" id=12]
+[ext_resource path="res://external_assets/snow_tile_straightHillLarge.dae" type="PackedScene" id=13]
+[ext_resource path="res://external_assets/snow_tile_wideTransition.dae" type="PackedScene" id=14]
+[ext_resource path="res://external_assets/tile.dae" type="PackedScene" id=15]
+[ext_resource path="res://external_assets/tile_bump.dae" type="PackedScene" id=16]
+[ext_resource path="res://external_assets/tile_cornerInner.dae" type="PackedScene" id=17]
+[ext_resource path="res://external_assets/snow_tile_riverBridge.dae" type="PackedScene" id=18]
+[ext_resource path="res://external_assets/snow_tile_cornerInner.dae" type="PackedScene" id=19]
+[ext_resource path="res://external_assets/snow_tile_bump.dae" type="PackedScene" id=20]
+[ext_resource path="res://external_assets/snow_tile_end.dae" type="PackedScene" id=21]
+[ext_resource path="res://external_assets/snow_tile_spawnRound.dae" type="PackedScene" id=22]
+[ext_resource path="res://external_assets/snow_tile_split.dae" type="PackedScene" id=23]
+[ext_resource path="res://external_assets/snow_tile_transition.dae" type="PackedScene" id=24]
+[ext_resource path="res://external_assets/snow_tile_crossing.dae" type="PackedScene" id=25]
+[ext_resource path="res://external_assets/snow_tile_endRoundSpawn.dae" type="PackedScene" id=26]
+[ext_resource path="res://external_assets/snow_tile_straightHill.dae" type="PackedScene" id=27]
+[ext_resource path="res://external_assets/snow_tile_crystal.dae" type="PackedScene" id=28]
+[ext_resource path="res://external_assets/snow_tile_spawn.dae" type="PackedScene" id=29]
+[ext_resource path="res://external_assets/snow_tile_tree.dae" type="PackedScene" id=30]
+[ext_resource path="res://external_assets/snow_tile_treeQuad.dae" type="PackedScene" id=31]
+[ext_resource path="res://external_assets/snow_tile.dae" type="PackedScene" id=32]
+[ext_resource path="res://external_assets/snow_tile_cornerOuter.dae" type="PackedScene" id=33]
+[ext_resource path="res://external_assets/snow_detail_crystal.dae" type="PackedScene" id=34]
+[ext_resource path="res://external_assets/snow_detail_crystalLarge.dae" type="PackedScene" id=35]
+[ext_resource path="res://external_assets/columnLarge.dae" type="PackedScene" id=36]
+[ext_resource path="res://external_assets/cross.dae" type="PackedScene" id=37]
+[ext_resource path="res://external_assets/crypt.dae" type="PackedScene" id=38]
+[ext_resource path="res://external_assets/coffin.dae" type="PackedScene" id=39]
+[ext_resource path="res://external_assets/borderPillar.dae" type="PackedScene" id=40]
+[ext_resource path="res://external_assets/snow_tile_rock.dae" type="PackedScene" id=41]
+[ext_resource path="res://external_assets/detail_rocksLarge.dae" type="PackedScene" id=42]
+[ext_resource path="res://external_assets/rocks.dae" type="PackedScene" id=43]
+[ext_resource path="res://external_assets/snow_detail_dirt.dae" type="PackedScene" id=44]
+[ext_resource path="res://external_assets/bench.dae" type="PackedScene" id=45]
+[ext_resource path="res://external_assets/coffinOld.dae" type="PackedScene" id=46]
+[ext_resource path="res://external_assets/snow_detail_rocks.dae" type="PackedScene" id=47]
+[ext_resource path="res://external_assets/detail_tree.dae" type="PackedScene" id=48]
+[ext_resource path="res://external_assets/detailChalice.dae" type="PackedScene" id=49]
+[ext_resource path="res://external_assets/gravestoneCrossLarge.dae" type="PackedScene" id=50]
+[ext_resource path="res://external_assets/gravestoneBroken.dae" type="PackedScene" id=51]
+[ext_resource path="res://external_assets/snow_tile_riverStraight.dae" type="PackedScene" id=52]
+[ext_resource path="res://external_assets/detail_rocks.dae" type="PackedScene" id=53]
+[ext_resource path="res://external_assets/altarWood.dae" type="PackedScene" id=54]
+[ext_resource path="res://external_assets/detailPlate.dae" type="PackedScene" id=55]
+[ext_resource path="res://external_assets/gravestoneDebris.dae" type="PackedScene" id=56]
+[ext_resource path="res://external_assets/detail_crystalLarge.dae" type="PackedScene" id=57]
+[ext_resource path="res://external_assets/snow_woodStructure.dae" type="PackedScene" id=58]
+[ext_resource path="res://external_assets/snow_tile_slope.dae" type="PackedScene" id=59]
+[ext_resource path="res://external_assets/snow_woodStructure_high.dae" type="PackedScene" id=60]
+[ext_resource path="res://external_assets/crossWood.dae" type="PackedScene" id=61]
+[ext_resource path="res://external_assets/benchDamaged.dae" type="PackedScene" id=62]
+[ext_resource path="res://external_assets/gravestoneBevel.dae" type="PackedScene" id=63]
+[ext_resource path="res://external_assets/gravestoneFlat.dae" type="PackedScene" id=64]
+[ext_resource path="res://external_assets/road.dae" type="PackedScene" id=65]
+[ext_resource path="res://external_assets/snow_detail_dirtLarge.dae" type="PackedScene" id=66]
+[ext_resource path="res://external_assets/gravestoneFlatOpen.dae" type="PackedScene" id=67]
+[ext_resource path="res://external_assets/detail_crystal.dae" type="PackedScene" id=68]
+[ext_resource path="res://external_assets/gravestoneRound.dae" type="PackedScene" id=69]
+[ext_resource path="res://external_assets/gravestoneWide.dae" type="PackedScene" id=70]
+[ext_resource path="res://external_assets/fireBasket.dae" type="PackedScene" id=71]
+[ext_resource path="res://external_assets/lanternCandle.dae" type="PackedScene" id=72]
+[ext_resource path="res://external_assets/snow_tile_riverTransition.dae" type="PackedScene" id=73]
+[ext_resource path="res://external_assets/graveBorder.dae" type="PackedScene" id=74]
+[ext_resource path="res://external_assets/snow_detail_treeLarge.dae" type="PackedScene" id=75]
+[ext_resource path="res://external_assets/snow_detail_tree.dae" type="PackedScene" id=76]
+[ext_resource path="res://external_assets/altarStone.dae" type="PackedScene" id=77]
+[ext_resource path="res://external_assets/detail_treeLarge.dae" type="PackedScene" id=78]
+[ext_resource path="res://external_assets/rocksTall.dae" type="PackedScene" id=79]
+[ext_resource path="res://external_assets/crossColumn.dae" type="PackedScene" id=80]
+[ext_resource path="res://external_assets/debrisWood.dae" type="PackedScene" id=81]
+[ext_resource path="res://external_assets/gravestoneDecorative.dae" type="PackedScene" id=82]
+[ext_resource path="res://external_assets/gravestoneCross.dae" type="PackedScene" id=83]
+[ext_resource path="res://external_assets/gravestoneRoof.dae" type="PackedScene" id=84]
+[ext_resource path="res://external_assets/snow_detail_rocksLarge.dae" type="PackedScene" id=85]
+[ext_resource path="res://external_assets/detail_dirtLarge.dae" type="PackedScene" id=86]
+[ext_resource path="res://external_assets/lanternGlass.dae" type="PackedScene" id=87]
+[ext_resource path="res://external_assets/detailBowl.dae" type="PackedScene" id=88]
+[ext_resource path="res://external_assets/shovelDirt.dae" type="PackedScene" id=89]
+[ext_resource path="res://external_assets/lightpostAll.dae" type="PackedScene" id=90]
+[ext_resource path="res://external_assets/lightpostDouble.dae" type="PackedScene" id=91]
+[ext_resource path="res://external_assets/lightpostSingle.dae" type="PackedScene" id=92]
+[ext_resource path="res://external_assets/debris.dae" type="PackedScene" id=93]
+[ext_resource path="res://external_assets/pillarLarge.dae" type="PackedScene" id=94]
+[ext_resource path="res://external_assets/pillarObelisk.dae" type="PackedScene" id=95]
+[ext_resource path="res://external_assets/grave.dae" type="PackedScene" id=96]
+[ext_resource path="res://external_assets/detail_dirt.dae" type="PackedScene" id=97]
+[ext_resource path="res://external_assets/towerRound_bottomC.dae" type="PackedScene" id=98]
+[ext_resource path="res://external_assets/pine.dae" type="PackedScene" id=99]
+[ext_resource path="res://external_assets/pineCrooked.dae" type="PackedScene" id=100]
+[ext_resource path="res://external_assets/pumpkinTallCarved.dae" type="PackedScene" id=101]
+[ext_resource path="res://external_assets/pumpkin.dae" type="PackedScene" id=102]
+[ext_resource path="res://external_assets/pumpkinTall.dae" type="PackedScene" id=103]
+[ext_resource path="res://external_assets/shovel.dae" type="PackedScene" id=104]
+[ext_resource path="res://external_assets/towerRound_crystals.dae" type="PackedScene" id=105]
+[ext_resource path="res://external_assets/pumpkinCarved.dae" type="PackedScene" id=106]
+[ext_resource path="res://external_assets/pillarSquare.dae" type="PackedScene" id=107]
+[ext_resource path="res://external_assets/towerRound_bottomB.dae" type="PackedScene" id=108]
+[ext_resource path="res://external_assets/towerRound_base.dae" type="PackedScene" id=109]
+[ext_resource path="res://external_assets/towerRound_bottomA.dae" type="PackedScene" id=110]
+[ext_resource path="res://external_assets/pillarSmall.dae" type="PackedScene" id=111]
+[ext_resource path="res://external_assets/towerSquare_roofA.dae" type="PackedScene" id=112]
+[ext_resource path="res://external_assets/weapon_catapult.dae" type="PackedScene" id=113]
+[ext_resource path="res://external_assets/woodStructure_high.dae" type="PackedScene" id=114]
+[ext_resource path="res://external_assets/towerRound_topB.dae" type="PackedScene" id=115]
+[ext_resource path="res://external_assets/towerSquare_topC.dae" type="PackedScene" id=116]
+[ext_resource path="res://external_assets/brickWall.dae" type="PackedScene" id=117]
+[ext_resource path="res://external_assets/fence.dae" type="PackedScene" id=118]
+[ext_resource path="res://external_assets/fenceDamaged.dae" type="PackedScene" id=119]
+[ext_resource path="res://external_assets/ironFence.dae" type="PackedScene" id=120]
+[ext_resource path="res://external_assets/ironFenceBorder.dae" type="PackedScene" id=121]
+[ext_resource path="res://external_assets/towerSquare_middleB.dae" type="PackedScene" id=122]
+[ext_resource path="res://external_assets/ironFenceBorderColumn.dae" type="PackedScene" id=123]
+[ext_resource path="res://external_assets/ironFenceBorderGate.dae" type="PackedScene" id=124]
+[ext_resource path="res://external_assets/towerRound_sampleC.dae" type="PackedScene" id=125]
+[ext_resource path="res://external_assets/towerRound_topA.dae" type="PackedScene" id=126]
+[ext_resource path="res://external_assets/ironFenceCurve.dae" type="PackedScene" id=127]
+[ext_resource path="res://external_assets/ironFenceDamaged.dae" type="PackedScene" id=128]
+[ext_resource path="res://external_assets/urn.dae" type="PackedScene" id=129]
+[ext_resource path="res://external_assets/brickWallCurve.dae" type="PackedScene" id=130]
+[ext_resource path="res://external_assets/ironFenceBorderCurve.dae" type="PackedScene" id=131]
+[ext_resource path="res://external_assets/towerRound_sampleF.dae" type="PackedScene" id=132]
+[ext_resource path="res://external_assets/fenceGate.dae" type="PackedScene" id=133]
+[ext_resource path="res://external_assets/towerRound_roofC.dae" type="PackedScene" id=134]
+[ext_resource path="res://external_assets/stoneWallColumn.dae" type="PackedScene" id=135]
+[ext_resource path="res://external_assets/stoneWallCurve.dae" type="PackedScene" id=136]
+[ext_resource path="res://external_assets/stoneWallDamaged.dae" type="PackedScene" id=137]
+[ext_resource path="res://external_assets/ironFenceBar.dae" type="PackedScene" id=138]
+[ext_resource path="res://external_assets/digger.dae" type="PackedScene" id=139]
+[ext_resource path="res://external_assets/enemy_ufoGreen.dae" type="PackedScene" id=140]
+[ext_resource path="res://external_assets/woodStructure.dae" type="PackedScene" id=141]
+[ext_resource path="res://external_assets/stoneWall.dae" type="PackedScene" id=142]
+[ext_resource path="res://external_assets/enemy_ufoGreenWeapon.dae" type="PackedScene" id=143]
+[ext_resource path="res://external_assets/enemy_ufoPurple.dae" type="PackedScene" id=144]
+[ext_resource path="res://external_assets/trunkLong.dae" type="PackedScene" id=145]
+[ext_resource path="res://external_assets/weapon_blaster.dae" type="PackedScene" id=146]
+[ext_resource path="res://external_assets/towerRound_topC.dae" type="PackedScene" id=147]
+[ext_resource path="res://external_assets/enemy_ufoPurpleWeapon.dae" type="PackedScene" id=148]
+[ext_resource path="res://external_assets/towerSquare_middleA.dae" type="PackedScene" id=149]
+[ext_resource path="res://external_assets/towerRound_middleA.dae" type="PackedScene" id=150]
+[ext_resource path="res://external_assets/towerRound_middleC.dae" type="PackedScene" id=151]
+[ext_resource path="res://external_assets/towerRound_roofA.dae" type="PackedScene" id=152]
+[ext_resource path="res://external_assets/towerSquare_sampleB.dae" type="PackedScene" id=153]
+[ext_resource path="res://external_assets/towerSquare_sampleF.dae" type="PackedScene" id=154]
+[ext_resource path="res://external_assets/towerSquare_topA.dae" type="PackedScene" id=155]
+[ext_resource path="res://external_assets/towerSquare_topB.dae" type="PackedScene" id=156]
+[ext_resource path="res://external_assets/trunk.dae" type="PackedScene" id=157]
+[ext_resource path="res://external_assets/towerRound_sampleB.dae" type="PackedScene" id=158]
+[ext_resource path="res://external_assets/towerSquare_bottomC.dae" type="PackedScene" id=159]
+[ext_resource path="res://external_assets/towerSquare_bottomB.dae" type="PackedScene" id=160]
+[ext_resource path="res://external_assets/towerSquare_middleC.dae" type="PackedScene" id=161]
+[ext_resource path="res://external_assets/towerRound_sampleE.dae" type="PackedScene" id=162]
+[ext_resource path="res://external_assets/towerSquare_sampleC.dae" type="PackedScene" id=163]
+[ext_resource path="res://external_assets/towerRound_sampleA.dae" type="PackedScene" id=164]
+[ext_resource path="res://external_assets/towerSquare_roofB.dae" type="PackedScene" id=165]
+[ext_resource path="res://external_assets/towerSquare_sampleA.dae" type="PackedScene" id=166]
+[ext_resource path="res://external_assets/towerSquare_sampleE.dae" type="PackedScene" id=167]
+[ext_resource path="res://external_assets/towerRound_sampleD.dae" type="PackedScene" id=168]
+[ext_resource path="res://external_assets/towerSquare_bottomA.dae" type="PackedScene" id=169]
+[ext_resource path="res://external_assets/towerRound_roofB.dae" type="PackedScene" id=170]
+[ext_resource path="res://external_assets/towerSquare_sampleD.dae" type="PackedScene" id=171]
+[ext_resource path="res://external_assets/towerRound_middleB.dae" type="PackedScene" id=172]
+[ext_resource path="res://external_assets/weapon_ballista.dae" type="PackedScene" id=173]
+[ext_resource path="res://external_assets/weapon_cannon.dae" type="PackedScene" id=174]
+[ext_resource path="res://external_assets/towerSquare_roofC.dae" type="PackedScene" id=175]
+[ext_resource path="res://external_assets/enemy_ufoYellow.dae" type="PackedScene" id=176]
+[ext_resource path="res://external_assets/enemy_ufoYellowWeapon.dae" type="PackedScene" id=177]
+[ext_resource path="res://external_assets/enemy_ufoRed.dae" type="PackedScene" id=178]
+[ext_resource path="res://external_assets/zombie.dae" type="PackedScene" id=179]
+[ext_resource path="res://external_assets/enemy_ufoRedWeapon.dae" type="PackedScene" id=180]
+[ext_resource path="res://external_assets/ghost.dae" type="PackedScene" id=181]
+[ext_resource path="res://external_assets/skeleton.dae" type="PackedScene" id=182]
+[ext_resource path="res://external_assets/vampire.dae" type="PackedScene" id=183]
+[ext_resource path="res://external_assets/tile_endRound.dae" type="PackedScene" id=184]
+[ext_resource path="res://external_assets/snow_tile_riverSlope.dae" type="PackedScene" id=185]
+[ext_resource path="res://external_assets/snow_tile_riverSlopeLarge.dae" type="PackedScene" id=186]
+[ext_resource path="res://external_assets/tile_riverSlope.dae" type="PackedScene" id=187]
+[ext_resource path="res://external_assets/tile_treeDouble.dae" type="PackedScene" id=188]
+[ext_resource path="res://external_assets/tile_riverFall.dae" type="PackedScene" id=189]
+[ext_resource path="res://external_assets/tile_cornerRound.dae" type="PackedScene" id=190]
+[ext_resource path="res://external_assets/tile_split.dae" type="PackedScene" id=191]
+[ext_resource path="res://external_assets/tile_wideSplit.dae" type="PackedScene" id=192]
+[ext_resource path="res://external_assets/tile_hill.dae" type="PackedScene" id=193]
+[ext_resource path="res://external_assets/tile_crystal.dae" type="PackedScene" id=194]
+[ext_resource path="res://external_assets/tile_endRoundSpawn.dae" type="PackedScene" id=195]
+[ext_resource path="res://external_assets/tile_riverTransition.dae" type="PackedScene" id=196]
+[ext_resource path="res://external_assets/tile_slope.dae" type="PackedScene" id=197]
+[ext_resource path="res://external_assets/tile_cornerOuter.dae" type="PackedScene" id=198]
+[ext_resource path="res://external_assets/tile_spawn.dae" type="PackedScene" id=199]
+[ext_resource path="res://external_assets/tile_cornerLarge.dae" type="PackedScene" id=200]
+[ext_resource path="res://external_assets/tile_straight.dae" type="PackedScene" id=201]
+[ext_resource path="res://external_assets/tile_straightHill.dae" type="PackedScene" id=202]
+[ext_resource path="res://external_assets/tile_straightHillLarge.dae" type="PackedScene" id=203]
+[ext_resource path="res://external_assets/tile_wideStraight.dae" type="PackedScene" id=204]
+[ext_resource path="res://external_assets/tile_wideTransition.dae" type="PackedScene" id=205]
+[ext_resource path="res://external_assets/tile_dirt.dae" type="PackedScene" id=206]
+[ext_resource path="res://external_assets/tile_end.dae" type="PackedScene" id=207]
+[ext_resource path="res://external_assets/tile_riverSlopeLarge.dae" type="PackedScene" id=208]
+[ext_resource path="res://external_assets/tile_wideCorner.dae" type="PackedScene" id=209]
+[ext_resource path="res://external_assets/tile_endSpawn.dae" type="PackedScene" id=210]
+[ext_resource path="res://external_assets/tile_riverBridge.dae" type="PackedScene" id=211]
+[ext_resource path="res://external_assets/tile_treeQuad.dae" type="PackedScene" id=212]
+[ext_resource path="res://external_assets/snow_tile_riverFall.dae" type="PackedScene" id=213]
+[ext_resource path="res://external_assets/tile_tree.dae" type="PackedScene" id=214]
+[ext_resource path="res://external_assets/tile_dirtHigh.dae" type="PackedScene" id=215]
+[ext_resource path="res://external_assets/tile_spawnRound.dae" type="PackedScene" id=216]
+[ext_resource path="res://external_assets/tile_crossing.dae" type="PackedScene" id=217]
+[ext_resource path="res://external_assets/tile_cornerSquare.dae" type="PackedScene" id=218]
+[ext_resource path="res://external_assets/tile_transition.dae" type="PackedScene" id=219]
+[ext_resource path="res://external_assets/tile_riverCorner.dae" type="PackedScene" id=220]
+[ext_resource path="res://external_assets/tile_riverStraight.dae" type="PackedScene" id=221]
+[ext_resource path="res://external_assets/tile_rock.dae" type="PackedScene" id=222]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Terrain" type="Spatial" parent="."]
+
+[node name="Tile" type="Spatial" parent="Terrain"]
+
+[node name="snow_tile" parent="Terrain/Tile" instance=ExtResource( 32 )]
+visible = false
+
+[node name="snow_tile_bump" parent="Terrain/Tile" instance=ExtResource( 20 )]
+visible = false
+
+[node name="snow_tile_cornerInner" parent="Terrain/Tile" instance=ExtResource( 19 )]
+visible = false
+
+[node name="snow_tile_cornerLarge" parent="Terrain/Tile" instance=ExtResource( 8 )]
+visible = false
+
+[node name="snow_tile_cornerOuter" parent="Terrain/Tile" instance=ExtResource( 33 )]
+visible = false
+
+[node name="snow_tile_cornerRound" parent="Terrain/Tile" instance=ExtResource( 9 )]
+visible = false
+
+[node name="snow_tile_cornerSquare" parent="Terrain/Tile" instance=ExtResource( 10 )]
+visible = false
+
+[node name="snow_tile_crossing" parent="Terrain/Tile" instance=ExtResource( 25 )]
+visible = false
+
+[node name="snow_tile_crystal" parent="Terrain/Tile" instance=ExtResource( 28 )]
+visible = false
+
+[node name="snow_tile_end" parent="Terrain/Tile" instance=ExtResource( 21 )]
+visible = false
+
+[node name="snow_tile_endRound" parent="Terrain/Tile" instance=ExtResource( 1 )]
+visible = false
+
+[node name="snow_tile_endRoundSpawn" parent="Terrain/Tile" instance=ExtResource( 26 )]
+visible = false
+
+[node name="snow_tile_endSpawn" parent="Terrain/Tile" instance=ExtResource( 2 )]
+visible = false
+
+[node name="snow_tile_hill" parent="Terrain/Tile" instance=ExtResource( 3 )]
+visible = false
+
+[node name="snow_tile_riverBridge" parent="Terrain/Tile" instance=ExtResource( 18 )]
+visible = false
+
+[node name="snow_tile_riverCorner" parent="Terrain/Tile" instance=ExtResource( 11 )]
+visible = false
+
+[node name="snow_tile_spawn" parent="Terrain/Tile" instance=ExtResource( 29 )]
+visible = false
+
+[node name="snow_tile_spawnRound" parent="Terrain/Tile" instance=ExtResource( 22 )]
+visible = false
+
+[node name="snow_tile_split" parent="Terrain/Tile" instance=ExtResource( 23 )]
+visible = false
+
+[node name="snow_tile_straight" parent="Terrain/Tile" instance=ExtResource( 12 )]
+visible = false
+
+[node name="snow_tile_straightHill" parent="Terrain/Tile" instance=ExtResource( 27 )]
+visible = false
+
+[node name="snow_tile_straightHillLarge" parent="Terrain/Tile" instance=ExtResource( 13 )]
+visible = false
+
+[node name="snow_tile_transition" parent="Terrain/Tile" instance=ExtResource( 24 )]
+visible = false
+
+[node name="snow_tile_tree" parent="Terrain/Tile" instance=ExtResource( 30 )]
+visible = false
+
+[node name="snow_tile_treeDouble" parent="Terrain/Tile" instance=ExtResource( 5 )]
+visible = false
+
+[node name="snow_tile_treeQuad" parent="Terrain/Tile" instance=ExtResource( 31 )]
+visible = false
+
+[node name="snow_tile_wideCorner" parent="Terrain/Tile" instance=ExtResource( 4 )]
+visible = false
+
+[node name="snow_tile_wideSplit" parent="Terrain/Tile" instance=ExtResource( 6 )]
+visible = false
+
+[node name="snow_tile_wideStraight" parent="Terrain/Tile" instance=ExtResource( 7 )]
+visible = false
+
+[node name="snow_tile_wideTransition" parent="Terrain/Tile" instance=ExtResource( 14 )]
+visible = false
+
+[node name="tile" parent="Terrain/Tile" instance=ExtResource( 15 )]
+visible = false
+
+[node name="tile_bump" parent="Terrain/Tile" instance=ExtResource( 16 )]
+visible = false
+
+[node name="tile_cornerInner" parent="Terrain/Tile" instance=ExtResource( 17 )]
+visible = false
+
+[node name="tile_cornerLarge" parent="Terrain/Tile" instance=ExtResource( 200 )]
+visible = false
+
+[node name="tile_cornerOuter" parent="Terrain/Tile" instance=ExtResource( 198 )]
+visible = false
+
+[node name="tile_cornerRound" parent="Terrain/Tile" instance=ExtResource( 190 )]
+visible = false
+
+[node name="tile_cornerSquare" parent="Terrain/Tile" instance=ExtResource( 218 )]
+visible = false
+
+[node name="tile_crossing" parent="Terrain/Tile" instance=ExtResource( 217 )]
+visible = false
+
+[node name="tile_crystal" parent="Terrain/Tile" instance=ExtResource( 194 )]
+visible = false
+
+[node name="tile_dirt" parent="Terrain/Tile" instance=ExtResource( 206 )]
+visible = false
+
+[node name="tile_dirtHigh" parent="Terrain/Tile" instance=ExtResource( 215 )]
+visible = false
+
+[node name="tile_end" parent="Terrain/Tile" instance=ExtResource( 207 )]
+visible = false
+
+[node name="tile_endRound" parent="Terrain/Tile" instance=ExtResource( 184 )]
+visible = false
+
+[node name="tile_endRoundSpawn" parent="Terrain/Tile" instance=ExtResource( 195 )]
+visible = false
+
+[node name="tile_endSpawn" parent="Terrain/Tile" instance=ExtResource( 210 )]
+visible = false
+
+[node name="tile_hill" parent="Terrain/Tile" instance=ExtResource( 193 )]
+visible = false
+
+[node name="tile_riverBridge" parent="Terrain/Tile" instance=ExtResource( 211 )]
+visible = false
+
+[node name="tile_riverCorner" parent="Terrain/Tile" instance=ExtResource( 220 )]
+visible = false
+
+[node name="tile_riverFall" parent="Terrain/Tile" instance=ExtResource( 189 )]
+visible = false
+
+[node name="tile_riverSlope" parent="Terrain/Tile" instance=ExtResource( 187 )]
+visible = false
+
+[node name="tile_riverSlopeLarge" parent="Terrain/Tile" instance=ExtResource( 208 )]
+visible = false
+
+[node name="tile_riverStraight" parent="Terrain/Tile" instance=ExtResource( 221 )]
+visible = false
+
+[node name="tile_riverTransition" parent="Terrain/Tile" instance=ExtResource( 196 )]
+visible = false
+
+[node name="tile_rock" parent="Terrain/Tile" instance=ExtResource( 222 )]
+visible = false
+
+[node name="tile_slope" parent="Terrain/Tile" instance=ExtResource( 197 )]
+visible = false
+
+[node name="tile_spawn" parent="Terrain/Tile" instance=ExtResource( 199 )]
+visible = false
+
+[node name="tile_spawnRound" parent="Terrain/Tile" instance=ExtResource( 216 )]
+visible = false
+
+[node name="tile_split" parent="Terrain/Tile" instance=ExtResource( 191 )]
+visible = false
+
+[node name="tile_straight" parent="Terrain/Tile" instance=ExtResource( 201 )]
+visible = false
+
+[node name="tile_straightHill" parent="Terrain/Tile" instance=ExtResource( 202 )]
+visible = false
+
+[node name="tile_straightHillLarge" parent="Terrain/Tile" instance=ExtResource( 203 )]
+visible = false
+
+[node name="tile_transition" parent="Terrain/Tile" instance=ExtResource( 219 )]
+visible = false
+
+[node name="tile_tree" parent="Terrain/Tile" instance=ExtResource( 214 )]
+visible = false
+
+[node name="tile_treeDouble" parent="Terrain/Tile" instance=ExtResource( 188 )]
+visible = false
+
+[node name="tile_treeQuad" parent="Terrain/Tile" instance=ExtResource( 212 )]
+visible = false
+
+[node name="tile_wideCorner" parent="Terrain/Tile" instance=ExtResource( 209 )]
+visible = false
+
+[node name="tile_wideSplit" parent="Terrain/Tile" instance=ExtResource( 192 )]
+visible = false
+
+[node name="tile_wideStraight" parent="Terrain/Tile" instance=ExtResource( 204 )]
+visible = false
+
+[node name="tile_wideTransition" parent="Terrain/Tile" instance=ExtResource( 205 )]
+visible = false
+
+[node name="snow_tile_riverFall" parent="Terrain/Tile" instance=ExtResource( 213 )]
+visible = false
+
+[node name="snow_tile_riverSlope" parent="Terrain/Tile" instance=ExtResource( 185 )]
+visible = false
+
+[node name="snow_tile_riverSlopeLarge" parent="Terrain/Tile" instance=ExtResource( 186 )]
+visible = false
+
+[node name="snow_tile_riverStraight" parent="Terrain/Tile" instance=ExtResource( 52 )]
+visible = false
+
+[node name="snow_tile_riverTransition" parent="Terrain/Tile" instance=ExtResource( 73 )]
+visible = false
+
+[node name="snow_tile_rock" parent="Terrain/Tile" instance=ExtResource( 41 )]
+visible = false
+
+[node name="snow_tile_slope" parent="Terrain/Tile" instance=ExtResource( 59 )]
+visible = false
+
+[node name="Detail" type="Spatial" parent="Terrain"]
+
+[node name="detail_crystal" parent="Terrain/Detail" instance=ExtResource( 68 )]
+visible = false
+
+[node name="detail_crystalLarge" parent="Terrain/Detail" instance=ExtResource( 57 )]
+visible = false
+
+[node name="detail_dirt" parent="Terrain/Detail" instance=ExtResource( 97 )]
+visible = false
+
+[node name="detail_dirtLarge" parent="Terrain/Detail" instance=ExtResource( 86 )]
+visible = false
+
+[node name="detail_rocks" parent="Terrain/Detail" instance=ExtResource( 53 )]
+visible = false
+
+[node name="detail_rocksLarge" parent="Terrain/Detail" instance=ExtResource( 42 )]
+visible = false
+
+[node name="detail_tree" parent="Terrain/Detail" instance=ExtResource( 48 )]
+visible = false
+
+[node name="detail_treeLarge" parent="Terrain/Detail" instance=ExtResource( 78 )]
+visible = false
+
+[node name="grave" parent="Terrain/Detail" instance=ExtResource( 96 )]
+visible = false
+
+[node name="graveBorder" parent="Terrain/Detail" instance=ExtResource( 74 )]
+visible = false
+
+[node name="road" parent="Terrain/Detail" instance=ExtResource( 65 )]
+visible = false
+
+[node name="rocks" parent="Terrain/Detail" instance=ExtResource( 43 )]
+visible = false
+
+[node name="rocksTall" parent="Terrain/Detail" instance=ExtResource( 79 )]
+visible = false
+
+[node name="shovelDirt" parent="Terrain/Detail" instance=ExtResource( 89 )]
+visible = false
+
+[node name="snow_detail_crystal" parent="Terrain/Detail" instance=ExtResource( 34 )]
+visible = false
+
+[node name="snow_detail_crystalLarge" parent="Terrain/Detail" instance=ExtResource( 35 )]
+visible = false
+
+[node name="snow_detail_dirt" parent="Terrain/Detail" instance=ExtResource( 44 )]
+visible = false
+
+[node name="snow_detail_dirtLarge" parent="Terrain/Detail" instance=ExtResource( 66 )]
+visible = false
+
+[node name="snow_detail_rocks" parent="Terrain/Detail" instance=ExtResource( 47 )]
+visible = false
+
+[node name="snow_detail_rocksLarge" parent="Terrain/Detail" instance=ExtResource( 85 )]
+visible = false
+
+[node name="snow_detail_tree" parent="Terrain/Detail" instance=ExtResource( 76 )]
+visible = false
+
+[node name="snow_detail_treeLarge" parent="Terrain/Detail" instance=ExtResource( 75 )]
+visible = false
+
+[node name="snow_woodStructure" parent="Terrain/Detail" instance=ExtResource( 58 )]
+visible = false
+
+[node name="snow_woodStructure_high" parent="Terrain/Detail" instance=ExtResource( 60 )]
+visible = false
+
+[node name="Tokens" type="Spatial" parent="."]
+
+[node name="altarStone" parent="Tokens" instance=ExtResource( 77 )]
+visible = false
+
+[node name="bench" parent="Tokens" instance=ExtResource( 45 )]
+visible = false
+
+[node name="altarWood" parent="Tokens" instance=ExtResource( 54 )]
+visible = false
+
+[node name="benchDamaged" parent="Tokens" instance=ExtResource( 62 )]
+visible = false
+
+[node name="borderPillar" parent="Tokens" instance=ExtResource( 40 )]
+visible = false
+
+[node name="coffin" parent="Tokens" instance=ExtResource( 39 )]
+visible = false
+
+[node name="coffinOld" parent="Tokens" instance=ExtResource( 46 )]
+visible = false
+
+[node name="columnLarge" parent="Tokens" instance=ExtResource( 36 )]
+visible = false
+
+[node name="cross" parent="Tokens" instance=ExtResource( 37 )]
+visible = false
+
+[node name="crossColumn" parent="Tokens" instance=ExtResource( 80 )]
+visible = false
+
+[node name="crossWood" parent="Tokens" instance=ExtResource( 61 )]
+visible = false
+
+[node name="crypt" parent="Tokens" instance=ExtResource( 38 )]
+visible = false
+
+[node name="debris" parent="Tokens" instance=ExtResource( 93 )]
+visible = false
+
+[node name="debrisWood" parent="Tokens" instance=ExtResource( 81 )]
+visible = false
+
+[node name="detailBowl" parent="Tokens" instance=ExtResource( 88 )]
+visible = false
+
+[node name="detailChalice" parent="Tokens" instance=ExtResource( 49 )]
+visible = false
+
+[node name="detailPlate" parent="Tokens" instance=ExtResource( 55 )]
+visible = false
+
+[node name="gravestoneBevel" parent="Tokens" instance=ExtResource( 63 )]
+visible = false
+
+[node name="gravestoneBroken" parent="Tokens" instance=ExtResource( 51 )]
+visible = false
+
+[node name="gravestoneCross" parent="Tokens" instance=ExtResource( 83 )]
+visible = false
+
+[node name="gravestoneCrossLarge" parent="Tokens" instance=ExtResource( 50 )]
+visible = false
+
+[node name="gravestoneDebris" parent="Tokens" instance=ExtResource( 56 )]
+visible = false
+
+[node name="gravestoneDecorative" parent="Tokens" instance=ExtResource( 82 )]
+visible = false
+
+[node name="gravestoneFlat" parent="Tokens" instance=ExtResource( 64 )]
+visible = false
+
+[node name="gravestoneFlatOpen" parent="Tokens" instance=ExtResource( 67 )]
+visible = false
+
+[node name="gravestoneRoof" parent="Tokens" instance=ExtResource( 84 )]
+visible = false
+
+[node name="gravestoneRound" parent="Tokens" instance=ExtResource( 69 )]
+visible = false
+
+[node name="gravestoneWide" parent="Tokens" instance=ExtResource( 70 )]
+visible = false
+
+[node name="fireBasket" parent="Tokens" instance=ExtResource( 71 )]
+visible = false
+
+[node name="lanternCandle" parent="Tokens" instance=ExtResource( 72 )]
+visible = false
+
+[node name="lanternGlass" parent="Tokens" instance=ExtResource( 87 )]
+visible = false
+
+[node name="lightpostAll" parent="Tokens" instance=ExtResource( 90 )]
+visible = false
+
+[node name="lightpostDouble" parent="Tokens" instance=ExtResource( 91 )]
+visible = false
+
+[node name="lightpostSingle" parent="Tokens" instance=ExtResource( 92 )]
+visible = false
+
+[node name="pillarLarge" parent="Tokens" instance=ExtResource( 94 )]
+visible = false
+
+[node name="pillarObelisk" parent="Tokens" instance=ExtResource( 95 )]
+visible = false
+
+[node name="pillarSmall" parent="Tokens" instance=ExtResource( 111 )]
+visible = false
+
+[node name="pillarSquare" parent="Tokens" instance=ExtResource( 107 )]
+visible = false
+
+[node name="pine" parent="Tokens" instance=ExtResource( 99 )]
+visible = false
+
+[node name="pineCrooked" parent="Tokens" instance=ExtResource( 100 )]
+visible = false
+
+[node name="pumpkin" parent="Tokens" instance=ExtResource( 102 )]
+visible = false
+
+[node name="pumpkinCarved" parent="Tokens" instance=ExtResource( 106 )]
+visible = false
+
+[node name="pumpkinTall" parent="Tokens" instance=ExtResource( 103 )]
+visible = false
+
+[node name="pumpkinTallCarved" parent="Tokens" instance=ExtResource( 101 )]
+visible = false
+
+[node name="shovel" parent="Tokens" instance=ExtResource( 104 )]
+visible = false
+
+[node name="towerRound_base" parent="Tokens" instance=ExtResource( 109 )]
+visible = false
+
+[node name="towerRound_bottomA" parent="Tokens" instance=ExtResource( 110 )]
+visible = false
+
+[node name="towerRound_bottomB" parent="Tokens" instance=ExtResource( 108 )]
+visible = false
+
+[node name="towerRound_bottomC" parent="Tokens" instance=ExtResource( 98 )]
+visible = false
+
+[node name="towerRound_crystals" parent="Tokens" instance=ExtResource( 105 )]
+visible = false
+
+[node name="towerRound_middleA" parent="Tokens" instance=ExtResource( 150 )]
+visible = false
+
+[node name="towerRound_middleB" parent="Tokens" instance=ExtResource( 172 )]
+visible = false
+
+[node name="towerRound_middleC" parent="Tokens" instance=ExtResource( 151 )]
+visible = false
+
+[node name="towerRound_roofA" parent="Tokens" instance=ExtResource( 152 )]
+visible = false
+
+[node name="towerRound_roofB" parent="Tokens" instance=ExtResource( 170 )]
+visible = false
+
+[node name="towerRound_roofC" parent="Tokens" instance=ExtResource( 134 )]
+visible = false
+
+[node name="towerRound_sampleA" parent="Tokens" instance=ExtResource( 164 )]
+visible = false
+
+[node name="towerRound_sampleB" parent="Tokens" instance=ExtResource( 158 )]
+visible = false
+
+[node name="towerRound_sampleC" parent="Tokens" instance=ExtResource( 125 )]
+visible = false
+
+[node name="towerRound_sampleD" parent="Tokens" instance=ExtResource( 168 )]
+visible = false
+
+[node name="towerRound_sampleE" parent="Tokens" instance=ExtResource( 162 )]
+visible = false
+
+[node name="towerRound_sampleF" parent="Tokens" instance=ExtResource( 132 )]
+visible = false
+
+[node name="towerRound_topA" parent="Tokens" instance=ExtResource( 126 )]
+visible = false
+
+[node name="towerRound_topB" parent="Tokens" instance=ExtResource( 115 )]
+visible = false
+
+[node name="towerRound_topC" parent="Tokens" instance=ExtResource( 147 )]
+visible = false
+
+[node name="towerSquare_bottomA" parent="Tokens" instance=ExtResource( 169 )]
+visible = false
+
+[node name="towerSquare_bottomB" parent="Tokens" instance=ExtResource( 160 )]
+visible = false
+
+[node name="towerSquare_bottomC" parent="Tokens" instance=ExtResource( 159 )]
+visible = false
+
+[node name="towerSquare_middleA" parent="Tokens" instance=ExtResource( 149 )]
+visible = false
+
+[node name="towerSquare_middleB" parent="Tokens" instance=ExtResource( 122 )]
+visible = false
+
+[node name="towerSquare_middleC" parent="Tokens" instance=ExtResource( 161 )]
+visible = false
+
+[node name="towerSquare_roofA" parent="Tokens" instance=ExtResource( 112 )]
+visible = false
+
+[node name="towerSquare_roofB" parent="Tokens" instance=ExtResource( 165 )]
+visible = false
+
+[node name="towerSquare_roofC" parent="Tokens" instance=ExtResource( 175 )]
+visible = false
+
+[node name="towerSquare_sampleA" parent="Tokens" instance=ExtResource( 166 )]
+visible = false
+
+[node name="towerSquare_sampleB" parent="Tokens" instance=ExtResource( 153 )]
+visible = false
+
+[node name="towerSquare_sampleC" parent="Tokens" instance=ExtResource( 163 )]
+visible = false
+
+[node name="towerSquare_sampleD" parent="Tokens" instance=ExtResource( 171 )]
+visible = false
+
+[node name="towerSquare_sampleE" parent="Tokens" instance=ExtResource( 167 )]
+visible = false
+
+[node name="towerSquare_sampleF" parent="Tokens" instance=ExtResource( 154 )]
+visible = false
+
+[node name="towerSquare_topA" parent="Tokens" instance=ExtResource( 155 )]
+visible = false
+
+[node name="towerSquare_topB" parent="Tokens" instance=ExtResource( 156 )]
+visible = false
+
+[node name="towerSquare_topC" parent="Tokens" instance=ExtResource( 116 )]
+visible = false
+
+[node name="trunk" parent="Tokens" instance=ExtResource( 157 )]
+visible = false
+
+[node name="trunkLong" parent="Tokens" instance=ExtResource( 145 )]
+visible = false
+
+[node name="urn" parent="Tokens" instance=ExtResource( 129 )]
+visible = false
+
+[node name="weapon_ballista" parent="Tokens" instance=ExtResource( 173 )]
+visible = false
+
+[node name="weapon_blaster" parent="Tokens" instance=ExtResource( 146 )]
+visible = false
+
+[node name="weapon_cannon" parent="Tokens" instance=ExtResource( 174 )]
+visible = false
+
+[node name="weapon_catapult" parent="Tokens" instance=ExtResource( 113 )]
+visible = false
+
+[node name="woodStructure" parent="Tokens" instance=ExtResource( 141 )]
+visible = false
+
+[node name="woodStructure_high" parent="Tokens" instance=ExtResource( 114 )]
+visible = false
+
+[node name="Walls" type="Spatial" parent="."]
+
+[node name="brickWall" parent="Walls" instance=ExtResource( 117 )]
+visible = false
+
+[node name="brickWallCurve" parent="Walls" instance=ExtResource( 130 )]
+visible = false
+
+[node name="fence" parent="Walls" instance=ExtResource( 118 )]
+visible = false
+
+[node name="fenceDamaged" parent="Walls" instance=ExtResource( 119 )]
+visible = false
+
+[node name="fenceGate" parent="Walls" instance=ExtResource( 133 )]
+visible = false
+
+[node name="ironFence" parent="Walls" instance=ExtResource( 120 )]
+visible = false
+
+[node name="ironFenceBar" parent="Walls" instance=ExtResource( 138 )]
+visible = false
+
+[node name="ironFenceBorder" parent="Walls" instance=ExtResource( 121 )]
+visible = false
+
+[node name="ironFenceBorderColumn" parent="Walls" instance=ExtResource( 123 )]
+visible = false
+
+[node name="ironFenceBorderCurve" parent="Walls" instance=ExtResource( 131 )]
+visible = false
+
+[node name="ironFenceBorderGate" parent="Walls" instance=ExtResource( 124 )]
+visible = false
+
+[node name="ironFenceCurve" parent="Walls" instance=ExtResource( 127 )]
+visible = false
+
+[node name="ironFenceDamaged" parent="Walls" instance=ExtResource( 128 )]
+visible = false
+
+[node name="stoneWall" parent="Walls" instance=ExtResource( 142 )]
+visible = false
+
+[node name="stoneWallColumn" parent="Walls" instance=ExtResource( 135 )]
+visible = false
+
+[node name="stoneWallCurve" parent="Walls" instance=ExtResource( 136 )]
+visible = false
+
+[node name="stoneWallDamaged" parent="Walls" instance=ExtResource( 137 )]
+visible = false
+
+[node name="Entity" type="Spatial" parent="."]
+
+[node name="digger" parent="Entity" instance=ExtResource( 139 )]
+visible = false
+
+[node name="enemy_ufoGreen" parent="Entity" instance=ExtResource( 140 )]
+visible = false
+
+[node name="enemy_ufoGreenWeapon" parent="Entity" instance=ExtResource( 143 )]
+visible = false
+
+[node name="enemy_ufoPurple" parent="Entity" instance=ExtResource( 144 )]
+visible = false
+
+[node name="enemy_ufoPurpleWeapon" parent="Entity" instance=ExtResource( 148 )]
+visible = false
+
+[node name="enemy_ufoRed" parent="Entity" instance=ExtResource( 178 )]
+visible = false
+
+[node name="enemy_ufoRedWeapon" parent="Entity" instance=ExtResource( 180 )]
+visible = false
+
+[node name="enemy_ufoYellow" parent="Entity" instance=ExtResource( 176 )]
+visible = false
+
+[node name="enemy_ufoYellowWeapon" parent="Entity" instance=ExtResource( 177 )]
+visible = false
+
+[node name="ghost" parent="Entity" instance=ExtResource( 181 )]
+visible = false
+
+[node name="skeleton" parent="Entity" instance=ExtResource( 182 )]
+visible = false
+
+[node name="vampire" parent="Entity" instance=ExtResource( 183 )]
+visible = false
+
+[node name="zombie" parent="Entity" instance=ExtResource( 179 )]
+visible = false
